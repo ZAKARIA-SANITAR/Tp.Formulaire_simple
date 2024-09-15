@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(0, 255, 115);
+}
+#idiv{
+    width: 60%;
+    color: blue;
+    border: solid;
+    align-content: center;
+}
+#btn{
+ 
+    padding-left: 5%;  
+}

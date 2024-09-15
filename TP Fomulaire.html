@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecss.css">
+    <script src="jstp.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <center><div id="idiv">
+        <fieldset >
+        <legend>Formulaire Inscription Stagiaire</legend>        
+            <table>
+                <tr>
+                    <td>ID</td>
+                    <td><input type="text" id="Id" ><span id="spid"></span></td>
+                </tr>
+                <tr>
+                    <td>Nom</td>
+                    <td><input type="text" id="Nom"><span id="spnom"></span></td>
+                </tr>
+                <tr>
+                    <td>Prenom</td>
+                    <td><input type="text" id="Prenom"><span id="spprenom"></span></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="text" id="Age"></td>
+                </tr>
+                <tr>
+                    <td>sexe</td>
+                    <td><select name="Sexe">
+                        <option value="Homme">Homme</option>
+                        <option value="Femme">Femme</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Taille</td>
+                    <td>S<input type="radio" name="R" checked>
+                    M<input type="radio" name="R">
+                    L<input type="radio" name="R" ></td>
+                </tr>
+                <tr>
+                    <td>Bacaloureat</td>
+                    <td>Physique<input type="checkbox" >
+                        SVT<input type="checkbox" >
+                        Lettere<input type="checkbox" ></td>
+                </tr>
+            </table>
+            <p id="btn">
+            <input type="submit" value="Valider" id="valider" onclick="f1()">
+            <input type="reset" value="Reset" id="reset"></p>
+    </fieldset>
+</div></center>
+</body>
+</html>
